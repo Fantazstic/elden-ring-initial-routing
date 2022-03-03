@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Elden Ring Routing WIP</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Leaflet's CSS -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" crossorigin="" />
+
+	<!-- Make sure you put this AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet/dist/leaflet.js" crossorigin=""></script>
+
+	<!-- Grouping markers to cluster -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" crossorigin="" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css"
+	crossorigin="" />
+	<script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js" crossorigin=""></script>
+
+	<!-- Nested marker cluster -->
+	<script src="https://unpkg.com/leaflet.featuregroup.subgroup@latest/dist/leaflet.featuregroup.subgroup.js"></script>
+
+	<!-- Additional icons -->
+	<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/fontawesome.min.css" rel="stylesheet"
+		crossorigin="" />
+	<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/solid.min.css" rel="stylesheet"
+		crossorigin="" />
+	<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/brands.min.css" rel="stylesheet"
+		crossorigin="" />
+
+	<!-- Sidebar -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet-sidebar-v2/css/leaflet-sidebar.css" crossorigin="" />
+	<script src="https://unpkg.com/leaflet-sidebar-v2/js/leaflet-sidebar.min.js" crossorigin=""></script>
+
+	<!-- Marker editor -->
+	<link rel="stylesheet" href="https://unpkg.com/@geoman-io/leaflet-geoman-free@latest/dist/leaflet-geoman.css"
+		crossorigin="" />
+	<script src="https://unpkg.com/@geoman-io/leaflet-geoman-free@latest/dist/leaflet-geoman.min.js"
+		crossorigin=""></script>
+
+	<link rel="stylesheet" href="common/style.css" />
+</head>
+
+<body>
+	<div id="map"></div>
+
+	<!-- include classes -->
+	<script src="common/custom_layers.js" type="text/javascript"></script>
+	<script src="common/interactive_layer.js" type="text/javascript"></script>
+	<script src="common/interactive_map.js" type="text/javascript"></script>
+	<script src="common/share_marker.js" type="text/javascript"></script>
+	<script src="common/utils.js" type="text/javascript"></script>
+
+	<!-- include features from file -->
+	<script src="marker/fast_travels.js" type="text/javascript"></script>
+	<script src="marker/waygates.js" type="text/javascript"></script>
+	<script src="marker/skips.js" type="text/javascript"></script>
+	<script src="marker/cutscenes.js" type="text/javascript"></script>
+	<script src="marker/required_bosses.js" type="text/javascript"></script>
+
+	<!-- include layer logic -->
+	<script src="marker_logic/fast_travels.js" type="text/javascript"></script>
+	<script src="marker_logic/waygates.js" type="text/javascript"></script>
+	<script src="marker_logic/skips.js" type="text/javascript"></script>
+	<script src="marker_logic/cutscenes.js" type="text/javascript"></script>
+	<script src="marker_logic/required_bosses.js" type="text/javascript"></script>
+
+	<!-- include map specific stuff -->
+	<script src="map_utils.js" type="text/javascript"></script>
+	<script src="map.js" type="text/javascript"></script>
+</body>
+
+</html>
