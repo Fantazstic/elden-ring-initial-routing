@@ -1,12 +1,12 @@
-function addRequiredBosses(map) {
-    map.addInteractiveLayer('required_bosses', required_bosses, {
-        name: "Required Bosses",
+function addWrongWarps(map) {
+    map.addInteractiveLayer('wrong_warps', wrong_warps, {
+        name: "Wrong Warps",
         create_checkbox: true,
         create_feature_popup: true,
         is_default: true,
         pointToLayer: function (feature, latlng) {
             return L.marker(latlng, {
-                icon: Utils.getCustomIcon('required_bosses'),
+                icon: Utils.getCustomIcon('wrong_warps'),
                 riseOnHover: true
             });
         }

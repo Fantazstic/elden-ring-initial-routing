@@ -10,10 +10,13 @@ interactive_map.addTileLayer('Elden Ring Map', {
     maxNativeZoom: 5
 });
 
+addRoutes(interactive_map);
+addSteps(interactive_map);
 addFastTravels(interactive_map);
 addWaygates(interactive_map);
-addSkips(interactive_map);
-addCutscenes(interactive_map);
-addRequiredBosses(interactive_map);
+addWrongWarps(interactive_map);
+addBosses(interactive_map);
+addItems(interactive_map);
+addUpgrades(interactive_map);
 
 interactive_map.finalize();

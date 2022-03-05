@@ -1,29 +1,31 @@
-var skips = {
+var items = {
     "type": "FeatureCollection",
     "features": [
         {
             "type": "Feature",
             "properties": {
-                "id": "Skip 1",
-                "description": "Entrance"
+                "id": "Item 1",
+                "description": "Imbued Sword Key"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.03125,-158.0859375
+                    137.679688,
+                    -158.523437
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "id": "Skip 1",
-                "description": "Exit"
+                "id": "Item 2",
+                "description": "Imbued Sword Key"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.109375,-172.9921875
+                    35.65625,
+                    -109.765625
                 ]
             }
         }

@@ -4,169 +4,126 @@ var fast_travels = {
         {
             "type": "Feature",
             "properties": {
-                "id": "Fast travel 1",
+                "id": "Fast Travel 1",
                 "description": "Entrance"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    107.6796875,-157.109375
+                    133.320313,
+                    -147.921875
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "id": "Fast travel 1",
+                "id": "Fast Travel 1",
                 "description": "Exit"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    112.4921875,-162.0234375
+                    89.398438,
+                    -177.320312
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "id": "Fast travel 2",
+                "id": "Fast Travel 2",
                 "description": "Entrance"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    114.7734375,-176.5390625
+                    135.8125,
+                    -155.632812
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "id": "Fast travel 2",
+                "id": "Fast Travel 2",
                 "description": "Exit"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    90.1796875,-167.09375
+                    90.179688,
+                    -167.21875
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "id": "Fast travel 3",
+                "id": "Fast Travel 4",
+                "description": "Exit"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.953125,
+                    -101.398437
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "Fast Travel 5",
                 "description": "Entrance"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    71.734375,-153.0859375
+                    41.171875,
+                    -97.273437
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "id": "Fast travel 3",
-                "description": "Roundtable Hold"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    1.1953125,-218.8125
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "Fast travel 3",
+                "id": "Fast Travel 5",
                 "description": "Exit"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    112.546875,-161.484375
+                    133.648438,
+                    -154.726562
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "id": "Fast travel 5",
+                "id": "Fast Travel 6",
                 "description": "Entrance"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.984375,-154.96875
+                    132.179688,
+                    -151.984375
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "id": "Fast travel 5",
+                "id": "Fast Travel 6",
                 "description": "Exit"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.9921875,-154.3984375
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "Fast travel 8",
-                "description": "Entrance"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.0546875,-164.5859375
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "Fast travel 8",
-                "description": "Exit"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    71.890625,-152.46875
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "Fast travel 9",
-                "description": "Entrance"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    109.1796875,-88.7734375
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "Fast travel 9",
-                "description": "Exit"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    104.7890625,-84.265625
+                    35.296875,
+                    -110.476562
                 ]
             }
         }

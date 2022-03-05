@@ -10,53 +10,63 @@ class InteractiveMap {
     <li>Icons from <a href="https://fontawesome.com/" title="Font Awesome">Font Awesome</a> under <a href="https://fontawesome.com/license">CCA4</a>.</li>
     `
     #common_contribution = `
-    <li>Soldat#0638 - Routing, design and implementation.</li>
+    <li>Soldat#0638 - Design and implementation.</li>
+    <li>bronze#9674 - Routing.</li>
     <li>omnistegan#7961 - Map background retrieval.</li>
     <li>nacitar sevaht#0475 - Map background retrieval.</li>
     `
     #common_guide = `
-    1. Start
+    1. Start as Samurai + Golden Seed
     <br>2. Gatefront - Get Torrent
-    <br>3. Third Church of Marika - Site of Grace
-    <br>4. Summonwater Village - Defeat Tibia Mariner
-    <br>5. Fast travel - Third Church of Marika
-    <br>6. Fort Haight - Acquire left half of the Dectus Medallion
-    <br>7. Fast travel - Gatefront
-    <br>8. Defeat Margit, the Fell Omen
-    <br>9. Defeat Godrick the Grafted
-    <br>10. Liurnia Site of Grace - Rest and teleport to Roundtable Hold
-    <br>11. Talk to D at Roundtable Hold, show Deathroot and accept introduction to Gurranq
-    <br>12. Fast travel - Third Church of Marika
-    <br>13. Third Church of Marika - Go through waygate to Caelid
-    <br>14. Minor Erdtree - Use Torrent lift behind the tree
-    <br>15. Fort Faroth - Acquire right half of the Dectus Medallion
-    <br>16. Fast travel - Forth Faroth
-    <br>17. Church of the Plague - Site of Grace
-    <br>18. Stake of Marika skip to Radahn
-    <br>19. Defeat Starscourge Radahn
-    <br>20. Fast travel - Lake-Facing Cliffs
-    <br>21. Descend behind Site of Grace, path directly North
-    <br>22. Choose the right side pathway, towards Carian Study Hall
-    <br>23. Cross the rock beam after Artists Shack
-    <br>24. Descend cliff protrusions to Grand Lift of Dectus
-    <br>25. Enter Leyndell
-    <br>26. Defeat Draconic Tree Sentinel
-    <br>27. Defeat the Ghost of Godfrey, First Elden Lord
-    <br>28. Defeat Morgott, the Omen King
-    <br>29. Touch the thorns of the Erdtree, rest at Site of Grace and get Rold Medallion from Melina
-    <br>30. Fast travel - Avenue Balcony
-    <br>40. Forbidden Lands
-    <br>41. Grand Lift of Rold
-    <br>42. Mountaintops of the Giants
-    <br>43. Defeat Fire Giant
-    <br>44. Forge of the Giants, rest at Site of Grace and trigger The Burning
-    <br>45. Crumbling Farum Azula
-    <br>46. Defeat Godskin Duo
-    <br>47. Defeat Beast Clergyman / Maliketh, the Black Blade
-    <br>48. Defeat Sir Gideon Ofnir, The All-Knowing
-    <br>49. Defeat Godfrey, First Elden Lord / Hoarah Loux, Warrior
-    <br>50. Defeat Radagon of the Golden Order
-    <br>51. Defeat Elden Beast
+    <br>3. Waygate - Caelid
+    <br>4. Upgrade Item - Somber Smithing Stone 8
+    <br>5. Fast Travel - The First Step
+    <br>6. Trap Chest - Sellia Crystal Tunnel
+    <br>7. Site of Grace - Sellia Crystal Tunnel
+    <br>8. Go to Sellia
+    <br>9. Item - Imbued Sword Key
+    <br>10. Boss - Nox Twins (Gives Flowing Sword)
+    <br>11. Fast Travel - Gatefront
+    <br>12. Go to Liurnia of the Lakes
+    <br>13. Waygate - Academy South Gate
+    <br>14. Waygate - Northern Liurnia Lakeshore
+    <br>15. Site of Grace - Northern Liurnia Lakeshore
+    <br>16. Go to The Four Belfries
+    <br>17. Site of Grace - The Four Belfries
+    <br>18. Item - Imbued Sword Key
+    <br>19. Upgrade Item - Somber Smithing Stone 3
+    <br>20. Waygate - Nokron, Eternal City
+    <br>21. FQ WW - Nokron, Eternal City
+    <br>22. Boss - Mimic Tear
+    <br>23. Item - Somber Smithing Stone 4
+    <br>24. Item - Somber Smithing Stone 5
+    <br>25. Fast Travel - The Four Belfries
+    <br>26. Go to Iji the Giant Blacksmith
+    <br>27. Buy Somber Smithing Stone 1 + 2
+    <br>28. Upgrade Flowing Sword +5
+    <br>29. Fast Travel - Sellia Crystal Tunnel
+    <br>30. Boss - Fallingstar Beast (Drops Somber Smithing Stone 6)
+    <br>31. Fast Travel - The Four Belfries
+    <br>32. Waygate - Crumbling Farum Azula
+    <br>33. FQ WW - Crumbling Farum Azula
+    <br>34. Upgrade Item - Somberstone Miner's Bell Bearing 4
+    <br>35. Upgrade Item - Somber Smithing Stone 9
+    <br>36. Site of Grace - Dragon Temple
+    <br>37. Fast Travel - Roundtable Hold
+    <br>38. Sell everything
+    <br>39. Give Somberstone Miner's Bell Bearing 4
+    <br>40. Buy Somber Smithing Stone 7
+    <br>41. Upgrade Flowing Sword +9
+    <br>42. Level up
+    <br>43. Boss - Godskin Duo
+    <br>44. Upgrade Item - Somber Ancient Dragon Smithing Stone
+    <br>45. Fast Travel - Roundtable Hold
+    <br>46. Upgrade Flowing Sword +10
+    <br>47. Boss - Beast Clergyman / Maliketh, the Black Blade
+    <br>48. Boss - Sir Gideon Ofnir, The All-Knowing
+    <br>49. Boss - Godfrey, First Elden Lord / Hoarah Loux, Warrior
+    <br>50. Boss - Radagon of the Golden Order
+    <br>51. Boss - Elden Beast
     <br>52. End
     `
     #custom_layers;
@@ -431,7 +441,7 @@ class InteractiveMap {
         this.#sidebar.addPanel({
             id: 'guide',
             tab: '<i class="fas fa-question"></i>',
-            title: 'Route Walkthrough',
+            title: 'Any% FQ WW Walkthrough',
             position: 'bottom',
             pane: `<ul>${this.#common_guide}</ul>`
         });

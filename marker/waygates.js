@@ -10,7 +10,8 @@ var waygates = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    113.3203125,-160.375
+                    113.289063,
+                    -160.59375
                 ]
             }
         },
@@ -23,7 +24,8 @@ var waygates = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.3125,-132.8984375
+                    145.242188,
+                    -133.101562
                 ]
             }
         },
@@ -36,7 +38,8 @@ var waygates = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.4453125,-171.4609375
+                    68.632813,
+                    -140.53125
                 ]
             }
         },
@@ -49,7 +52,36 @@ var waygates = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.4375,-166.3046875
+                    49.140625,
+                    -122.9375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "Waygate 3",
+                "description": "Entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    54.976563,
+                    -119.96875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "Waygate 3",
+                "description": "Exit"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.859375,
+                    -100.695312
                 ]
             }
         }
