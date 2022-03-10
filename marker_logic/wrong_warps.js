@@ -3,7 +3,7 @@ function addWrongWarps(map) {
         name: "Wrong Warps",
         create_checkbox: true,
         create_feature_popup: true,
-        is_default: true,
+        is_default: false,
         pointToLayer: function (feature, latlng) {
             return L.marker(latlng, {
                 icon: Utils.getCustomIcon('wrong_warps'),

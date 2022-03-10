@@ -5,10 +5,15 @@ var interactive_map = new InteractiveMap('map', {
     website_subdir: 'elden-ring-initial-routing'
 });
 
-interactive_map.addTileLayer('Elden Ring Map', {
+interactive_map.addTileLayer('Overworld', {
     minNativeZoom: 3,
     maxNativeZoom: 5
 });
+
+interactive_map.addTileLayer('Underworld', {
+    minNativeZoom: 3,
+    maxNativeZoom: 5
+}, 'under_tiles/{z}/{x}/{y}.png');
 
 addRoutes(interactive_map);
 addSteps(interactive_map);
